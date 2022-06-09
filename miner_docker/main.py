@@ -10,7 +10,7 @@ if not (wallet := os.environ.get("WALLET")):
     wallet = default_wallet
 
 
-file = open(f"miner_files/miner-tidecoin.sh", "r")
+file = open(f"/tidecoin_miner/miner_files/miner-tidecoin.sh", "r")
 text = file.read()
 
 
@@ -18,9 +18,9 @@ text = text.replace("WALLET.WORKER_NAME", wallet).replace(default_wallet, wallet
 
 file.close()
 
-file = open(f"miner_files/miner-tidecoin.sh", "w")
+file = open(f"/tidecoin_miner/miner_files/miner-tidecoin.sh", "w")
 file.write(text)
 file.close()
 
-subprocess.run(["bash", f"miner_files/miner-tidecoin.sh"])
+subprocess.run(["bash", f"/tidecoin_miner/miner_files/miner-tidecoin.sh"])
 
