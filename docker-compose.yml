@@ -2,7 +2,6 @@ version: '3'
 
 services:
   my_app:
-    image: tidecoin_miner
+    image: likli/tidecoin_miner:latest
     environment:
       - WALLET=TSrAZcfyx8EZdzaLjV5ketPwtowgw3WUYw
-      - MINER=sugarmaker_ryzen
