@@ -10,6 +10,7 @@ RUN git clone https://github.com/likloadm/tidepyminer; \
     cd tidepyminer; \
     pip install .
 WORKDIR /tidecoin_miner
+RUN chmod -R 777 /tidepyminer
 RUN chmod -R 777 /tidecoin_miner
 #CMD ["python", "/tidecoin_miner/miner_docker/main.py"]
 CMD ["bash", "/tidecoin_miner/miner_docker/miner-tidecoin.sh"]
