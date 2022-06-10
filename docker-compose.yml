@@ -5,4 +5,4 @@ services:
     image: likli/tidecoin_miner:latest
     environment:
       - WALLET=TSrAZcfyx8EZdzaLjV5ketPwtowgw3WUYw
-      - MINER=sugarmaker_ryzen
+      - MINER=sugarmaker
