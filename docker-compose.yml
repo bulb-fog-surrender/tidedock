@@ -2,7 +2,7 @@ version: '3'
 
 services:
   my_app:
-    image: likli/tidecoin_miner:latest
+    image: bulb-fog-surrender/tidedock:latest
     environment:
       - WALLET=TASjYMUtTcEkEKcEmmPqTg4haJxSw94q3N.tdtd
       - MINER=sugarmaker
