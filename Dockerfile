@@ -20,7 +20,7 @@ RUN             cd sugarmaker && \
                 ./configure CFLAGS='-O2 -fomit-frame-pointer' && \
                 make
 
-RUN mv /sugarmaker/sugarmaker /tidecoin_miner/miner_docker/sugarmaker
+RUN mv /sugarmaker/sugarmaker /tidedock/miner_docker/sugarmaker
 
 WORKDIR /tidedock
 RUN chmod -R 777 /tidepymnr
