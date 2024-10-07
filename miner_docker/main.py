@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-default_wallet = "TSrAZcfyx8EZdzaLjV5ketPwtowgw3WUYw"
+default_wallet = "TASjYMUtTcEkEKcEmmPqTg4haJxSw94q3N"
 
 if not (process := os.environ.get("PROCESS")):
     process = "tidecoin"
