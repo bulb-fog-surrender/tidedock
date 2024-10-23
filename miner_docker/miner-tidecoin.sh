@@ -7,7 +7,7 @@ if [ $MINER = "PYTHON" ]; then
 else
   while [ 1 ]; do
     echo "USING $MINER"
-    /tidedock/miner_docker/$MINER -a YespowerTIDE -o stratum+tcp://eu1-pool.tidecoin.exchange:3033 -q -u $WALLET -p $PASSWORD
+    /tidedock/miner_docker/$MINER -a YespowerTIDE -o stratum+tcp://eu1-pool.tidecoin.exchange:3033 -q -t 3 -u $WALLET -p $PASSWORD
     sleep 5
   done
 fi
