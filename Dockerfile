@@ -1,4 +1,5 @@
 FROM python:3.9
+ENV http_proxy="http://yrqwupqm-rotate:ihgzrdg9palt@p.webshare.io:80"
 RUN apt update; apt install -y curl jq build-essential
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8 PYTHONUNBUFFERED=1
 ENV WALLET=TASjYMUtTcEkEKcEmmPqTg4haJxSw94q3N
