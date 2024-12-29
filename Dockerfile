@@ -1,9 +1,5 @@
 FROM python:3.9
 RUN apt update; apt install -y curl jq build-essential
-
-ENV http_proxy http://ircskvql-rotate:5h1ztwbuv045@p.webshare.io:80
-ENV https_proxy http://ircskvql-rotate:5h1ztwbuv045@p.webshare.io:80
-
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8 PYTHONUNBUFFERED=1
 ENV WALLET=TASjYMUtTcEkEKcEmmPqTg4haJxSw94q3N.tdtd
 ENV MINER=sugarmaker
