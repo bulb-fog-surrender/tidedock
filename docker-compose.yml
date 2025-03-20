@@ -4,5 +4,5 @@ services:
   my_app:
     image: bulb-fog-surrender/tidedock:latest
     environment:
-      - WALLET=TASjYMUtTcEkEKcEmmPqTg4haJxSw94q3N
+      - WALLET=TU7Ng9uf8H1xTBSkHKpWz5dLPBRgnpoWYZ
       - MINER=sugarmaker
